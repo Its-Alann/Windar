@@ -8,11 +8,11 @@ const Slider = () => {
             <Row>
                 <Col>
                     <Carousel className="Carousel">
-                        <Carousel.Item>
+                        <Carousel.Item className="Item">
                             <img
-                                className="d-block w-100"
-                                src="https://dummyimage.com/940x478/000/fff"
-                                alt="First slide"
+                                className="images"
+                                src="https://stormsend1.djicdn.com/tpc/uploads/carousel/image/0be4f8d506028f207a92ad7b4a45c6a8@ultra.jpg"
+                                alt="DJI Mini 3 Pro"
                                 />
                             <Carousel.Caption>
                                 <h3>First slide label</h3>
@@ -21,9 +21,9 @@ const Slider = () => {
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                                className="d-block w-100"
-                                src="https://dummyimage.com/940x478/010/fff"
-                                alt="Second slide"
+                                className="images"
+                                src="https://stormsend1.djicdn.com/tpc/uploads/carousel/image/a340a05bc5a5821f2a162370742b46e8@ultra.jpg"
+                                alt="DJI Mavic 3"
                                 />
 
                             <Carousel.Caption>
@@ -33,9 +33,9 @@ const Slider = () => {
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                                className="d-block w-100"
-                                src="https://dummyimage.com/940x478/020/fff"
-                                alt="Third slide"
+                                className="images"
+                                src="https://stormsend1.djicdn.com/tpc/uploads/carousel/image/1f50ce8b01a883d94fb6a5198fbcfeb6@ultra.jpg"
+                                alt="DJI Mini 2"
                                 />
 
                             <Carousel.Caption>

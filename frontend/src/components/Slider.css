@@ -10,3 +10,13 @@
     border-radius: 100%;
     background-color: #C4C4C4 !important;
 }
+
+.images {
+    width: 940px;
+    height: 478px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    color: #000000 !important;
+}
