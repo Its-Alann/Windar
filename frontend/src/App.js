@@ -2,13 +2,20 @@ import Navbar from './components/Navbar'
 import Slider from './components/Slider'
 import Button from '@mui/material/Button';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import './components/AnswerPage'
+import { AnswerPage } from './components/AnswerPage';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Slider/>
-      <Button className="DroneSelect" variant="contained" size="medium">Select Drone</Button>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Slider />} />
+          <Route path="/answerpage" element={<AnswerPage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

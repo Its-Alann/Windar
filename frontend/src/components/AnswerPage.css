@@ -1,0 +1,32 @@
+
+.ContentBox{
+    background-color: #EAEAEA;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+h4 {
+    padding: 50px 350px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: start;
+}
+
+.LeftTextBlock{
+    /* background-color: red; */
+    margin-left: 68px !important;
+}
+
+.LeftText {
+    margin-bottom: 50px;
+    /* background-color: rgb(0, 102, 255); */
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.MapPic {
+    border-radius: 30px;
+}

@@ -1,8 +1,13 @@
 import React from "react";
 import { Carousel, Container, Row, Col } from 'react-bootstrap';
 import "../components/Slider.css"
+import Button from '@mui/material/Button';
+import { useNavigate } from "react-router-dom";
 
 const Slider = () => {
+
+    const navigate = useNavigate();
+    
     return (
         <Container>
             <Row>
@@ -45,8 +50,10 @@ const Slider = () => {
                         </Carousel.Item>
                     </Carousel>
                 </Col>
-            </Row>     
+            </Row>
+            <Button className="DroneSelect" variant="contained" size="medium" onClick={() => navigate("/answerpage")}>Select Drone</Button>
         </Container>
+
     );
 }
 
