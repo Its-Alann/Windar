@@ -1,7 +1,6 @@
-/* .Carousel{
-    width: 940px;
-    height: 478px;
-} */
+.Carousel{
+    margin-top: 149px;
+}
 
 .carousel-indicators button {
     height: 10px !important;
@@ -9,6 +8,10 @@
     margin: 0 10px !important;
     border-radius: 100%;
     background-color: #C4C4C4 !important;
+}
+
+.carousel-indicators {
+    margin-bottom: -15px !important;
 }
 
 .images {

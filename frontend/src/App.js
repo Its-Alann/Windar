@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Slider/>
-      <Button variant="contained" size="medium">Select Drone</Button>
+      <Button className="DroneSelect" variant="contained" size="medium">Select Drone</Button>
     </div>
   );
 }
