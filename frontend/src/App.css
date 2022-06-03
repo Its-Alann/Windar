@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.DroneSelect {
+  background-color: #C4C4C4 !important;
+  color: #363538 !important;
+  margin-top: 79px !important;
+  border-radius: 40px !important;
+  width: 250px !important;
+  height: 40px !important;
+}

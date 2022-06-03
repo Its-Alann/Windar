@@ -1,0 +1,33 @@
+.Carousel{
+    margin-top: 149px;
+}
+
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+    background-color: #C4C4C4 !important;
+}
+
+.carousel-indicators {
+    margin-bottom: -15px !important;
+}
+
+.images {
+    width: 940px;
+    height: 478px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    color: #000000 !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='C4C4C4' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='C4C4C4' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
